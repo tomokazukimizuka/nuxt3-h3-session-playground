@@ -11,8 +11,16 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@types/connect-redis": "^0.0.23",
+    "@types/express-session": "^1.17.10",
     "nuxt": "^3.8.2",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "connect-redis": "^7.1.0",
+    "express-session": "^1.17.3",
+    "h3-session": "^0.2.5",
+    "redis": "^4.6.11"
   }
 }
