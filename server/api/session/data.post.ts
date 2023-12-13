@@ -1,4 +1,6 @@
 export default defineEventHandler(async (event) => {
-  console.log(event.context.session);
-  return event.context.session;
+  return {
+    id: event.context.session.id,
+    data: event.context.session
+  };
 });
